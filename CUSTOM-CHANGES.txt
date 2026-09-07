@@ -1,0 +1,16 @@
+.github/workflows/custom-tile-apk.yml
+BUILD-WINDOWS.cmd
+HUONG-DAN.md
+LICENSE
+NOTICE-CUSTOM.txt
+app/build.gradle.kts
+app/src/main/AndroidManifest.xml
+app/src/main/kotlin/dev/bluehouse/bada/MainActivity.kt
+app/src/main/kotlin/dev/bluehouse/bada/tile/BadaQuickShareTileService.kt
+app/src/main/kotlin/dev/bluehouse/bada/tile/TileAddRequest.kt
+app/src/main/kotlin/dev/bluehouse/bada/tile/TileReceiveActivity.kt
+app/src/main/res/menu/main_overflow_menu.xml
+app/src/main/res/values-vi/tile_strings.xml
+app/src/main/res/values/strings.xml
+service-android/src/main/kotlin/dev/bluehouse/bada/service/receiver/ReceiverForegroundService.kt
+service-android/src/main/kotlin/dev/bluehouse/bada/service/receiver/ReceiverRunningStateHolder.kt

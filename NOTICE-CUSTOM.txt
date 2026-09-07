@@ -1,0 +1,9 @@
+Custom receive-toggle changes based on Bada.
+Upstream: https://github.com/kyujin-cho/Bada
+Base revision: 733abbc789a5389415efc0d0e211c6b560834126
+Copyright 2026 Bada contributors.
+Upstream Kotlin source headers identify Apache License, Version 2.0.
+The full Apache 2.0 license is included in LICENSE. Original source headers,
+credits, documentation, and third-party notices are retained.
+Modified files and newly added custom files are recorded in CUSTOM-CHANGES.txt.
+This build is not an official Google, Samsung, or upstream Bada release.

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="qs_tile_subtitle_on">Đang bật nhận</string>
+    <string name="qs_tile_subtitle_off">Đã tắt nhận</string>
+    <string name="qs_tile_content_desc_on">Bada đang bật chế độ nhận file</string>
+    <string name="qs_tile_content_desc_off">Bada đã tắt chế độ nhận từ ô cài đặt nhanh</string>
+    <string name="tile_starting">Đang bật nhận file…</string>
+    <string name="tile_start_failed">Không bật được nhận file. Mở app và kiểm tra quyền.</string>
+    <string name="tile_add_title">Thêm ô cài đặt nhanh</string>
+    <string name="tile_added">Đã có ô Bada. Bật Wi-Fi và Bluetooth trước khi nhận file.</string>
+    <string name="tile_add_manual">Kéo bảng cài đặt nhanh xuống, chọn Sửa rồi kéo ô Bada vào bảng.</string>
+</resources>
