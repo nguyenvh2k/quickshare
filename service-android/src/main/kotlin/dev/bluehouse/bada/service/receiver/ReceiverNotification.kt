@@ -98,7 +98,7 @@ internal object ReceiverNotification {
     ): Notification =
         NotificationCompat
             .Builder(context, CHANNEL_ID)
-            .setSmallIcon(android.R.drawable.stat_sys_download)
+            .setSmallIcon(R.drawable.ic_stat_quickshare)
             .setContentTitle(context.getString(R.string.receiver_notification_title))
             .setContentText(buildContentText(context, ssid))
             .setPriority(NotificationCompat.PRIORITY_LOW)

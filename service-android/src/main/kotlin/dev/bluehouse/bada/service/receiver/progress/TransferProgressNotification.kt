@@ -130,7 +130,7 @@ public object TransferProgressNotification {
         val builder =
             NotificationCompat
                 .Builder(context, CHANNEL_ID)
-                .setSmallIcon(android.R.drawable.stat_sys_download)
+                .setSmallIcon(R.drawable.ic_stat_quickshare)
                 .setContentTitle(content.title)
                 .setContentText(content.body)
                 .setStyle(NotificationCompat.BigTextStyle().bigText(content.bigText))
