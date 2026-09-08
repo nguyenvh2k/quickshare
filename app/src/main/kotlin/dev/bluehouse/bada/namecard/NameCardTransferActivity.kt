@@ -463,7 +463,7 @@ internal class NameCardTransferActivity : AppCompatActivity() {
         val notification =
             NotificationCompat
                 .Builder(this, CONSENT_CHANNEL_ID)
-                .setSmallIcon(R.mipmap.ic_launcher)
+                .setSmallIcon(R.mipmap.ic_quickshare_launcher)
                 .setContentTitle(getString(R.string.nfc_namecard_hce_service_description))
                 .setContentText(text)
                 .setPriority(NotificationCompat.PRIORITY_HIGH)

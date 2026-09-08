@@ -148,7 +148,7 @@ internal class NameCardExchangeService : Service() {
         val notification =
             NotificationCompat
                 .Builder(this, CHANNEL_ID)
-                .setSmallIcon(R.mipmap.ic_launcher)
+                .setSmallIcon(R.mipmap.ic_quickshare_launcher)
                 .setContentTitle(getString(R.string.name_card_exchange_notification))
                 .setOngoing(true)
                 .build()
