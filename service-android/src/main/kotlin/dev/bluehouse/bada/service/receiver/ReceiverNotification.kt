@@ -11,11 +11,8 @@ import android.app.NotificationManager
 import android.app.PendingIntent
 import android.content.Context
 import android.content.Intent
-import android.graphics.Bitmap
-import android.graphics.Canvas
 import android.os.Build
 import androidx.core.app.NotificationCompat
-import androidx.core.content.ContextCompat
 import dev.bluehouse.bada.service.R
 
 /**
@@ -102,7 +99,6 @@ internal object ReceiverNotification {
         NotificationCompat
             .Builder(context, CHANNEL_ID)
             .setSmallIcon(R.drawable.ic_stat_quickshare)
-            .setLargeIcon(quickShareLargeIcon(context))
             .setContentTitle(context.getString(R.string.receiver_notification_title))
             .setContentText(buildContentText(context, ssid))
             .setPriority(NotificationCompat.PRIORITY_LOW)
@@ -115,21 +111,6 @@ internal object ReceiverNotification {
             .setSilent(true)
             .setContentIntent(contentIntent)
             .build()
-
-    /**
-     * Some OEM notification shades show an app-icon-sized image beside a
-     * foreground notification. Supplying it explicitly prevents those skins
-     * from falling back to a cached launcher icon after a rebrand.
-     */
-    private fun quickShareLargeIcon(context: Context): Bitmap {
-        val drawable =
-            requireNotNull(ContextCompat.getDrawable(context, R.drawable.ic_notification_quickshare))
-        val size = (48 * context.resources.displayMetrics.density).toInt()
-        return Bitmap.createBitmap(size, size, Bitmap.Config.ARGB_8888).also { bitmap ->
-            drawable.setBounds(0, 0, size, size)
-            drawable.draw(Canvas(bitmap))
-        }
-    }
 
     /**
      * Pick the notification body string given the current SSID lookup
