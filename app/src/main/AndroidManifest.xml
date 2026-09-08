@@ -519,7 +519,7 @@
         <service
             android:name=".tile.BadaQuickShareTileService"
             android:exported="true"
-            android:icon="@drawable/ic_qs_quickshare_visible"
+            android:icon="@drawable/ic_quickshare_app_icon"
             android:label="@string/qs_tile_label"
             android:permission="android.permission.BIND_QUICK_SETTINGS_TILE">
             <intent-filter>
