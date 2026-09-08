@@ -28,7 +28,9 @@ internal object TileAddRequest {
             manager.requestAddTileService(
                 ComponentName(activity, BadaQuickShareTileService::class.java),
                 activity.getString(R.string.qs_tile_label),
-                Icon.createWithResource(activity, R.drawable.ic_qs_quickshare_visible),
+                // The add-tile confirmation is an app-facing surface: use the coloured
+                // Quick Share mark rather than the monochrome glyph used inside the tile.
+                Icon.createWithResource(activity, R.drawable.ic_quickshare_app_icon),
                 activity.mainExecutor,
             ) { result ->
                 if (result == StatusBarManager.TILE_ADD_REQUEST_RESULT_TILE_ADDED ||
