@@ -17,7 +17,7 @@
     <!-- Receiver foreground notification channel + body (#21). -->
     <string name="receiver_notification_channel_name">Quick Share 接收器</string>
     <string name="receiver_notification_channel_description">等待接收 Quick Share 傳輸時顯示的狀態通知</string>
-    <string name="receiver_notification_title">Quick Share 已啟用</string>
+    <string name="receiver_notification_title">QuickShare 已啟用</string>
     <string name="receiver_notification_text">正在接收附近檔案…</string>
     <string name="receiver_notification_text_with_ssid">正在「%1$s」網路上接收</string>
     <string name="receiver_notification_text_unknown_ssid">正在此網路上接收</string>

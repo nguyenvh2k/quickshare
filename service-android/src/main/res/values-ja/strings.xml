@@ -17,7 +17,7 @@
     <!-- Receiver foreground notification channel + body (#21). -->
     <string name="receiver_notification_channel_name">Quick Share 受信機</string>
     <string name="receiver_notification_channel_description">Quick Share の転送を待ち受けている間のステータス通知</string>
-    <string name="receiver_notification_title">Quick Share が有効です</string>
+    <string name="receiver_notification_title">QuickShare が有効です</string>
     <string name="receiver_notification_text">近くのファイルを受信中…</string>
     <string name="receiver_notification_text_with_ssid">\"%1$s\" で受信中</string>
     <string name="receiver_notification_text_unknown_ssid">このネットワークで受信中</string>
