@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Direct application icon for OEM notification surfaces. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <path
+        android:fillColor="#FF5B3FD1"
+        android:pathData="M16,0L92,0Q108,0 108,16L108,92Q108,108 92,108L16,108Q0,108 0,92L0,16Q0,0 16,0Z" />
+    <path
+        android:fillColor="#FFEEFDFE"
+        android:pathData="M22,40L59,40L50,31L60,21L88,49L60,77L50,67L59,56L22,56Z" />
+    <path
+        android:fillColor="#FFB8F3F0"
+        android:pathData="M86,68L49,68L58,77L48,87L20,59L48,31L58,41L49,52L86,52Z" />
+</vector>
