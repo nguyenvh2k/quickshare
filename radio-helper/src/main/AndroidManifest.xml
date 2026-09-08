@@ -44,7 +44,7 @@
 
     <application
         android:allowBackup="false"
-        android:label="Bada Radio Helper">
+        android:label="QuickShare Radio Helper">
 
         <!-- Standalone self-test: install this APK alone and tap the
              buttons to confirm the OEM (e.g. ColorOS) honours the
@@ -80,7 +80,7 @@
         <service
             android:name=".QuickShareWatcherService"
             android:exported="true"
-            android:label="Bada Quick Share auto-detect"
+            android:label="QuickShare auto-detect"
             android:permission="android.permission.BIND_ACCESSIBILITY_SERVICE">
             <intent-filter>
                 <action android:name="android.accessibilityservice.AccessibilityService" />

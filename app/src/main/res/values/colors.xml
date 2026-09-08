@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="ic_launcher_background">#0F62FE</color>
+    <color name="ic_launcher_background">#5B3FD1</color>
 
     <!--
       Brand palette consumed by the app theme + BottomNavigationView
       tint selectors. The accent (`brand_primary`) is the same blue as
       the launcher icon so the bottom-nav active-state color matches
       the app icon. `brand_on_primary` is the foreground used on top of
-      the accent (white reads cleanly against #0F62FE).
+      the accent (white reads cleanly against #5B3FD1).
 
       Brand blue stays the same in night mode — it reads cleanly
       against both light and dark surfaces, and matching the icon
       across modes keeps the brand recognition consistent.
     -->
-    <color name="brand_primary">#0F62FE</color>
+    <color name="brand_primary">#5B3FD1</color>
     <color name="brand_on_primary">#FFFFFFFF</color>
 
     <!--
@@ -23,12 +23,12 @@
       competing with the active-state brand blue tint.
     -->
     <color name="nav_surface">#FFFFFFFF</color>
-    <color name="nav_item_active">#0F62FE</color>
+    <color name="nav_item_active">#5B3FD1</color>
     <color name="nav_item_inactive">#FF5F6368</color>
     <!-- Soft brand-tinted pill behind the selected tab in the landscape
          floating nav (Material active indicator). Low alpha so the
          saturated brand-blue active icon still reads on top. -->
-    <color name="nav_active_indicator">#1F0F62FE</color>
+    <color name="nav_active_indicator">#1F5B3FD1</color>
     <!-- Translucent surface for the landscape floating-pill nav. The pill
          draws a real backdrop blur of the content behind it on API 31+
          (ElasticBottomNavigationView.attachBackdropBlur); this semi-opaque
@@ -74,7 +74,7 @@
     <color name="frosted_button_fill">#99FFFFFF</color>
     <color name="frosted_button_stroke">#22000000</color>
     <color name="frosted_button_disabled">#33000000</color>
-    <color name="frosted_button_ripple">#1F0F62FE</color>
+    <color name="frosted_button_ripple">#1F5B3FD1</color>
     <!--
       Instant pressed wash layered under the ripple in every frosted
       button drawable. The ripple alone is not a reliable pressed cue:
@@ -85,7 +85,7 @@
       draw path everywhere, so every button in the family presses
       identically; the ripple still glows on top where it renders.
     -->
-    <color name="frosted_button_pressed">#2B0F62FE</color>
+    <color name="frosted_button_pressed">#2B5B3FD1</color>
 
     <!--
       Popup menu (toolbar overflow). Same surface_card token in spirit
