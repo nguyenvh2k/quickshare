@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:tools="http://schemas.android.com/tools">
-    <string name="app_name" translatable="false">QuickShare</string>
+    <string name="app_name" translatable="false">Quick Share</string>
 
     <!-- Bottom-navigation tab labels for MainActivity. The send/receive
          tab is the default destination on cold start; settings holds the
@@ -31,24 +31,24 @@
     <string name="update_button_update">Update</string>
     <!-- Automatic update check: notification + download/install flow. -->
     <string name="update_notification_channel_name">App updates</string>
-    <string name="update_notification_channel_desc">Notifies you when a newer version of QuickShare is available on GitHub.</string>
-    <string name="update_notification_title">QuickShare update available</string>
+    <string name="update_notification_channel_desc">Notifies you when a newer version of Quick Share is available on GitHub.</string>
+    <string name="update_notification_title">Quick Share update available</string>
     <string name="update_notification_text">Version %1$s is ready to install</string>
     <string name="update_notification_action_github">View on GitHub</string>
     <string name="update_notification_action_download">Download &amp; install</string>
     <string name="update_downloading_title">Downloading update…</string>
-    <string name="update_downloading_text" translatable="false">QuickShare %1$s</string>
+    <string name="update_downloading_text" translatable="false">Quick Share %1$s</string>
     <string name="update_download_failed_title">Update download failed</string>
     <string name="update_download_failed_text">Couldn\'t download the update. Tap the notification to try again or open GitHub.</string>
-    <string name="update_install_need_unknown_sources">Allow QuickShare to install apps, then tap Download again.</string>
+    <string name="update_install_need_unknown_sources">Allow Quick Share to install apps, then tap Download again.</string>
     <string name="update_install_started">Downloading update…</string>
-    <string name="update_install_success">QuickShare updated</string>
+    <string name="update_install_success">Quick Share updated</string>
     <string name="update_install_failed">Couldn\'t install the update</string>
-    <string name="update_confirm_notification_title">Confirm QuickShare update</string>
+    <string name="update_confirm_notification_title">Confirm Quick Share update</string>
     <string name="update_confirm_notification_text">Tap to review and finish installing the update.</string>
     <string name="update_open_release_failed">Couldn\'t open the release page.</string>
     <string name="settings_auto_update_title">Automatic update check</string>
-    <string name="settings_auto_update_subtitle">Every 6 hours, check GitHub for a newer QuickShare release and show a notification when one is available.</string>
+    <string name="settings_auto_update_subtitle">Every 6 hours, check GitHub for a newer Quick Share release and show a notification when one is available.</string>
     <string name="credit_placeholder_text" translatable="false">credit</string>
 
     <!--
@@ -142,7 +142,7 @@
     <string name="main_always_visible_caption_on">Anyone nearby can share files with me.</string>
     <string name="main_always_visible_caption_off">Active only while a nearby device is scanning over Bluetooth.</string>
     <string name="main_bug_report_title">Shake to report a bug</string>
-    <string name="main_bug_report_subtitle">When enabled, shaking the phone while QuickShare is open offers to package recent diagnostics, device state, and a screenshot into a zip that you save yourself. Nothing is uploaded automatically.</string>
+    <string name="main_bug_report_subtitle">When enabled, shaking the phone while Quick Share is open offers to package recent diagnostics, device state, and a screenshot into a zip that you save yourself. Nothing is uploaded automatically.</string>
     <string name="settings_nfc_diagnostics_title">Show NFC tap diagnostics</string>
     <string name="settings_nfc_diagnostics_subtitle">When enabled, each NFC tap-to-share shows on-screen messages (read outcome, wake, which device it connects to, or why it could not). Turn this off for a clean tap once everything works. The detailed log is always kept for bug reports.</string>
     <string name="main_keep_screen_on_title">Keep screen on during transfers</string>
@@ -207,7 +207,7 @@
          OEM family; the helper takes the user to the right Settings
          page. -->
     <!-- #145 legacy package migration banner. Shown when the
-         launcher detects a coresident pre-QuickShare install. The legacy build registers a
+         launcher detects a coresident pre-Quick Share install. The legacy build registers a
          duplicate 0xFEF3 GATT advertisement service that prevents stock
          Quick Share senders from completing the BLE bootstrap, so the
          banner is non-dismissible: only uninstalling the old package
@@ -249,16 +249,16 @@
          dialog (Android 14+). On API 34+ USE_FULL_SCREEN_INTENT is a
          special access that is auto-denied; without it the incoming
          consent prompt (with the PIN) cannot pop full-screen over other
-         apps / the lock screen while QuickShare is in the background and
+         apps / the lock screen while Quick Share is in the background and
          degrades to a heads-up notification. The row and dialog route
          the user to the system page that grants it. The row is hidden
          entirely below API 34, where the permission is install-time. -->
     <string name="settings_fsi_title">Full-screen transfer alerts</string>
-    <string name="settings_fsi_subtitle">Allow full-screen notifications so an incoming transfer can show its PIN over other apps and on the lock screen when QuickShare is in the background. Without it, you still get a notification you can tap to see the PIN.</string>
+    <string name="settings_fsi_subtitle">Allow full-screen notifications so an incoming transfer can show its PIN over other apps and on the lock screen when Quick Share is in the background. Without it, you still get a notification you can tap to see the PIN.</string>
     <string name="settings_fsi_status_granted">Currently: full-screen alerts allowed</string>
     <string name="settings_fsi_status_not_granted">Currently: not allowed — the PIN prompt arrives as a notification instead</string>
     <string name="settings_fsi_open">Open notification settings</string>
-    <string name="fsi_dialog_body">When a transfer arrives while QuickShare is in the background, Android needs the full-screen notification permission to pop the PIN prompt over your screen. Without it, the prompt arrives as a regular notification you tap to open. Open settings to allow it, or Skip to handle it later from the Settings tab.</string>
+    <string name="fsi_dialog_body">When a transfer arrives while Quick Share is in the background, Android needs the full-screen notification permission to pop the PIN prompt over your screen. Without it, the prompt arrives as a regular notification you tap to open. Open settings to allow it, or Skip to handle it later from the Settings tab.</string>
     <string name="fsi_dialog_skip_toast">You can change this from Settings.</string>
 
     <!-- NFC tap to share (dedicated setting; not tied to the visible toggle). -->
@@ -303,7 +303,7 @@
          permission rows so the user understands the Phase 1 networking
          requirement before they land in the share flow. -->
     <string name="onboarding_network_card_title">Nearby discovery requirements</string>
-    <string name="onboarding_network_card_body">Shared Wi-Fi is still the baseline Quick Share path, especially when receiving. When sending to a nearby stock Quick Share peer, QuickShare can also use Bluetooth-assisted bootstrap if the devices are off-LAN. Keep Bluetooth on for that path.</string>
+    <string name="onboarding_network_card_body">Shared Wi-Fi is still the baseline Quick Share path, especially when receiving. When sending to a nearby stock Quick Share peer, Quick Share can also use Bluetooth-assisted bootstrap if the devices are off-LAN. Keep Bluetooth on for that path.</string>
     <string name="onboarding_network_card_dismiss">OK</string>
 
     <!-- NEARBY_WIFI_DEVICES (API 33+). -->
@@ -328,7 +328,7 @@
 
     <!-- ACCESS_FINE_LOCATION (API 24-30, legacy nearby-device discovery). -->
     <string name="permission_legacy_nearby_location_title">Nearby device location access</string>
-    <string name="permission_legacy_nearby_location_rationale">Android 11 and lower route Bluetooth Low Energy scan results through the location permission. QuickShare uses it only to discover nearby Quick Share devices; it does not use your physical location.</string>
+    <string name="permission_legacy_nearby_location_rationale">Android 11 and lower route Bluetooth Low Energy scan results through the location permission. Quick Share uses it only to discover nearby Quick Share devices; it does not use your physical location.</string>
 
     <!-- Permission status labels. -->
     <string name="permission_status_granted">Granted</string>
@@ -369,13 +369,13 @@
          scan list. -->
     <string name="send_help_sheet_title">Can\'t find the device?</string>
     <string name="send_help_sheet_visibility_title">Check the receiver\'s mode</string>
-    <string name="send_help_sheet_visibility_body">On the receiving device, make sure the toggle reads "Ready to receive". In that mode, anyone nearby can share files with it. If it\'s already in that mode but still doesn\'t appear here, try fully closing QuickShare on both devices and reopening it.</string>
+    <string name="send_help_sheet_visibility_body">On the receiving device, make sure the toggle reads "Ready to receive". In that mode, anyone nearby can share files with it. If it\'s already in that mode but still doesn\'t appear here, try fully closing Quick Share on both devices and reopening it.</string>
     <string name="send_help_sheet_qr_title">Or share via QR code</string>
     <string name="send_help_sheet_qr_body">If the receiver still does not appear, tap the QR code button at the top right of this card. Have the receiver scan the code or open the link to start the transfer.</string>
     <string name="send_help_sheet_tap_title">Sharing with a tap</string>
     <string name="send_help_sheet_tap_body">To share with a tap, hold the two phones back-to-back. The other phone only needs its screen on — it does not have to open the app. Only one phone taps to send: if the other phone is also on its own send screen, neither can receive the tap, so let it sit on its home screen instead.</string>
     <string name="send_help_sheet_compat_title">Check device compatibility</string>
-    <string name="send_help_sheet_compat_body">QuickShare is currently an experimental project. On some devices a peer may be discoverable but unable to receive files, and some devices may not be discoverable at all. We plan to widen device support in future updates.</string>
+    <string name="send_help_sheet_compat_body">Quick Share is currently an experimental project. On some devices a peer may be discoverable but unable to receive files, and some devices may not be discoverable at all. We plan to widen device support in future updates.</string>
     <string name="send_help_sheet_close">Got it</string>
 
     <string name="send_show_qr">Show QR</string>
@@ -442,7 +442,7 @@
 
     <!-- Shake-to-report bug-report flow (#162). -->
     <string name="bug_report_confirm_title">Trying to report a bug?</string>
-    <string name="bug_report_confirm_body">QuickShare will collect recent app diagnostics, device state, and a screenshot into a zip that stays on this device until you choose where to save it.</string>
+    <string name="bug_report_confirm_body">Quick Share will collect recent app diagnostics, device state, and a screenshot into a zip that stays on this device until you choose where to save it.</string>
     <string name="bug_report_confirm_yes">Yes</string>
     <string name="bug_report_confirm_no">No</string>
     <string name="bug_report_include_bssid_label">Include more-identifying details (Wi-Fi BSSID and nearby-device diagnostics)</string>
@@ -565,7 +565,7 @@
     <string name="transfer_progress_percent" translatable="false">%1$d%%</string>
 
     <!--
-      Quick Settings tile (QuickShareQuickShareTileService). Toggles the
+      Quick Settings tile (Quick ShareQuick ShareTileService). Toggles the
       receiver's "always visible" override from the system Quick Settings
       panel. `qs_tile_label` is also the tile's manifest android:label
       (shown in the Quick Settings edit tray) — keep it under ~18 chars
@@ -573,31 +573,31 @@
       under the tile label on API 29+; the content descriptions back
       TalkBack on every API level.
     -->
-    <string name="qs_tile_label" translatable="false">QuickShare</string>
+    <string name="qs_tile_label" translatable="false">Quick Share</string>
     <string name="qs_tile_subtitle_on">Receiving enabled</string>
     <string name="qs_tile_subtitle_off">Off</string>
-    <string name="qs_tile_content_desc_on">QuickShare receiver is running</string>
-    <string name="qs_tile_content_desc_off">QuickShare is not discoverable</string>
+    <string name="qs_tile_content_desc_on">Quick Share receiver is running</string>
+    <string name="qs_tile_content_desc_off">Quick Share is not discoverable</string>
 
     <!-- NFC tap-to-share HCE service description, shown in the system NFC /
          card-emulation settings list of registered apps. -->
-    <string name="nfc_tap_hce_service_description">QuickShare Quick Share tap-to-share</string>
+    <string name="nfc_tap_hce_service_description">Quick Share Quick Share tap-to-share</string>
     <!-- HCE service description shown in system NFC settings. The Type-4 NDEF
          service broadcasts the current pairing link to a tapped iPhone so it
          opens that link in Safari. -->
-    <string name="nfc_hce_service_description">QuickShare NFC link</string>
+    <string name="nfc_hce_service_description">Quick Share NFC link</string>
 
     <!-- ===== Name Card (tap-to-share contacts) ===== -->
     <!-- HCE service description shown in system NFC settings for the Name Card
          tap (proprietary AID F0534443415244). -->
-    <string name="nfc_namecard_hce_service_description">QuickShare Name Card</string>
+    <string name="nfc_namecard_hce_service_description">Quick Share Name Card</string>
     <!-- Settings row that opens the Name Card setup screen. -->
     <string name="settings_name_card_row_title">Name Card</string>
     <string name="settings_name_card_row_subtitle">Set up the contact card you share by tapping phones</string>
     <!-- NameCardSetupActivity (the setup page) -->
     <string name="name_card_activity_label">Name Card</string>
     <string name="name_card_setup_title">My Name Card</string>
-    <string name="name_card_setup_subtitle">Shared with another QuickShare phone when you tap them together. Leave blank to fall back to your phone’s own name and number.</string>
+    <string name="name_card_setup_subtitle">Shared with another Quick Share phone when you tap them together. Leave blank to fall back to your phone’s own name and number.</string>
     <string name="name_card_enable_title">Share my card when phones tap</string>
     <string name="name_card_field_name">Name</string>
     <string name="name_card_field_phone">Phone</string>
@@ -634,6 +634,6 @@
     <string name="tile_starting">Starting receive mode…</string>
     <string name="tile_start_failed">Cannot start receiving. Open the app and check permissions.</string>
     <string name="tile_add_title">Add Quick Settings tile</string>
-    <string name="tile_added">QuickShare tile is ready. Enable Wi-Fi and Bluetooth before receiving.</string>
-    <string name="tile_add_manual">Pull down Quick Settings, tap Edit, then drag the QuickShare tile into the panel.</string>
+    <string name="tile_added">Quick Share tile is ready. Enable Wi-Fi and Bluetooth before receiving.</string>
+    <string name="tile_add_manual">Pull down Quick Settings, tap Edit, then drag the Quick Share tile into the panel.</string>
 </resources>

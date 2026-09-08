@@ -2,11 +2,11 @@
 <resources>
     <string name="qs_tile_subtitle_on">Đang bật nhận</string>
     <string name="qs_tile_subtitle_off">Đã tắt nhận</string>
-    <string name="qs_tile_content_desc_on">QuickShare đang bật chế độ nhận file</string>
-    <string name="qs_tile_content_desc_off">QuickShare đã tắt chế độ nhận từ ô cài đặt nhanh</string>
+    <string name="qs_tile_content_desc_on">Quick Share đang bật chế độ nhận file</string>
+    <string name="qs_tile_content_desc_off">Quick Share đã tắt chế độ nhận từ ô cài đặt nhanh</string>
     <string name="tile_starting">Đang bật nhận file…</string>
     <string name="tile_start_failed">Không bật được nhận file. Mở app và kiểm tra quyền.</string>
     <string name="tile_add_title">Thêm ô cài đặt nhanh</string>
-    <string name="tile_added">Đã có ô QuickShare. Bật Wi-Fi và Bluetooth trước khi nhận file.</string>
-    <string name="tile_add_manual">Kéo bảng cài đặt nhanh xuống, chọn Sửa rồi kéo ô QuickShare vào bảng.</string>
+    <string name="tile_added">Đã có ô Quick Share. Bật Wi-Fi và Bluetooth trước khi nhận file.</string>
+    <string name="tile_add_manual">Kéo bảng cài đặt nhanh xuống, chọn Sửa rồi kéo ô Quick Share vào bảng.</string>
 </resources>

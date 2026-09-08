@@ -16,7 +16,7 @@
     <!-- Receiver foreground notification channel + body (#21). -->
     <string name="receiver_notification_channel_name">Quick Share 수신기</string>
     <string name="receiver_notification_channel_description">Quick Share 전송 수신을 대기하는 동안의 상태 알림</string>
-    <string name="receiver_notification_title">QuickShare가 활성화되어 있습니다</string>
+    <string name="receiver_notification_title">Quick Share가 활성화되어 있습니다</string>
     <string name="receiver_notification_text">근처 파일 수신 중…</string>
     <string name="receiver_notification_text_with_ssid">\"%1$s\"에서 수신 중</string>
     <string name="receiver_notification_text_unknown_ssid">이 네트워크에서 수신 중</string>

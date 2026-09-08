@@ -44,7 +44,7 @@
 
     <application
         android:allowBackup="false"
-        android:label="QuickShare Radio Helper">
+        android:label="Quick Share Radio Helper">
 
         <!-- Standalone self-test: install this APK alone and tap the
              buttons to confirm the OEM (e.g. ColorOS) honours the
@@ -78,9 +78,9 @@
              android:permission BIND_ACCESSIBILITY_SERVICE is REQUIRED by the
              platform so only the system can bind it. -->
         <service
-            android:name=".QuickShareWatcherService"
+            android:name=".Quick ShareWatcherService"
             android:exported="true"
-            android:label="QuickShare auto-detect"
+            android:label="Quick Share auto-detect"
             android:permission="android.permission.BIND_ACCESSIBILITY_SERVICE">
             <intent-filter>
                 <action android:name="android.accessibilityservice.AccessibilityService" />

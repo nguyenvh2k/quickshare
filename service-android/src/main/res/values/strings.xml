@@ -11,7 +11,7 @@
     <!--
       User-visible name of the notification channel that backs the
       persistent foreground notification. Shown in system Settings ->
-      Notifications -> QuickShare.
+      Notifications -> Quick Share.
     -->
     <string name="receiver_notification_channel_name">Quick Share receiver</string>
 
@@ -26,7 +26,7 @@
       Persistent notification title. Kept short so the system can show
       it on the lock screen and in collapsed-shade renderings.
     -->
-    <string name="receiver_notification_title">QuickShare is active</string>
+    <string name="receiver_notification_title">Quick Share is active</string>
 
     <!--
       Notification body text. Mirrors the issue body's "Receiving nearby
