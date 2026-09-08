@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Full-colour icon for notification cards on OEM System UI skins. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="48dp"
+    android:height="48dp"
+    android:viewportWidth="48"
+    android:viewportHeight="48">
+    <path
+        android:fillColor="#FF5B3FD1"
+        android:pathData="M6,0L42,0Q48,0 48,6L48,42Q48,48 42,48L6,48Q0,48 0,42L0,6Q0,0 6,0Z" />
+    <path
+        android:fillColor="#FFEEFDFE"
+        android:pathData="M8,18L26,18L21.5,13.5L26.5,8.5L40,22L26.5,35.5L21.5,30.5L26,24L8,24Z" />
+    <path
+        android:fillColor="#FFB8F3F0"
+        android:pathData="M40,30L22,30L26.5,34.5L21.5,39.5L8,26L21.5,12.5L26.5,17.5L22,24L40,24Z" />
+</vector>
