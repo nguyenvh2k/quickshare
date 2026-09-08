@@ -273,9 +273,9 @@
         android:allowBackup="false"
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@mipmap/ic_quickshare_launcher"
         android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher_round"
+        android:roundIcon="@mipmap/ic_quickshare_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Bada">
 
@@ -519,7 +519,7 @@
         <service
             android:name=".tile.BadaQuickShareTileService"
             android:exported="true"
-            android:icon="@drawable/ic_qs_bada_visible"
+            android:icon="@drawable/ic_qs_quickshare_visible"
             android:label="@string/qs_tile_label"
             android:permission="android.permission.BIND_QUICK_SETTINGS_TILE">
             <intent-filter>

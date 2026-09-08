@@ -94,7 +94,7 @@ internal class BadaQuickShareTileService : TileService() {
         val active = ReceiverRunningStateHolder.isRunning
         tile.state = if (active) Tile.STATE_ACTIVE else Tile.STATE_INACTIVE
         tile.label = getString(R.string.qs_tile_label)
-        tile.icon = Icon.createWithResource(this, R.drawable.ic_qs_bada_visible)
+        tile.icon = Icon.createWithResource(this, R.drawable.ic_qs_quickshare_visible)
         val status = getString(if (active) R.string.qs_tile_subtitle_on else R.string.qs_tile_subtitle_off)
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.Q) tile.subtitle = status
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.R) tile.stateDescription = status

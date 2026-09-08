@@ -28,7 +28,7 @@ internal object TileAddRequest {
             manager.requestAddTileService(
                 ComponentName(activity, BadaQuickShareTileService::class.java),
                 activity.getString(R.string.qs_tile_label),
-                Icon.createWithResource(activity, R.drawable.ic_qs_bada_visible),
+                Icon.createWithResource(activity, R.drawable.ic_qs_quickshare_visible),
                 activity.mainExecutor,
             ) { result ->
                 if (result == StatusBarManager.TILE_ADD_REQUEST_RESULT_TILE_ADDED ||

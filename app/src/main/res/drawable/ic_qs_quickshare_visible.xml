@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Monochrome QuickShare mark for the system Quick Settings tile. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24"
+    android:tint="#FFFFFFFF">
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:pathData="M3,8L13,8L10.5,5.5L13.3,2.7L20.6,10L13.3,17.3L10.5,14.5L13,11L3,11Z" />
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:pathData="M21,16L11,16L13.5,18.5L10.7,21.3L3.4,14L10.7,6.7L13.5,9.5L11,13L21,13Z" />
+</vector>
